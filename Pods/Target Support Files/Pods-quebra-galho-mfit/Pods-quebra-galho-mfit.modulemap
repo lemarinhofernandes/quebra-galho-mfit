@@ -1,0 +1,6 @@
+framework module Pods_quebra_galho_mfit {
+  umbrella header "Pods-quebra-galho-mfit-umbrella.h"
+
+  export *
+  module * { export * }
+}

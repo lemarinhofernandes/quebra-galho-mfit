@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70A9DBE0C81E4F97EFA4D89C /* Pods_quebra_galho_mfit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 974F3BC79E957549087D3E40 /* Pods_quebra_galho_mfit.framework */; };
+		C147ACFB2ACA56D6006BEF90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C147ACFA2ACA56D6006BEF90 /* AppDelegate.swift */; };
+		C147ACFD2ACA56D6006BEF90 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C147ACFC2ACA56D6006BEF90 /* SceneDelegate.swift */; };
+		C147ACFF2ACA56D6006BEF90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C147ACFE2ACA56D6006BEF90 /* ViewController.swift */; };
+		C147AD022ACA56D6006BEF90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C147AD002ACA56D6006BEF90 /* Main.storyboard */; };
+		C147AD042ACA56D8006BEF90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C147AD032ACA56D8006BEF90 /* Assets.xcassets */; };
+		C147AD072ACA56D8006BEF90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C147AD052ACA56D8006BEF90 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F4B8E2820790796F765CF74 /* Pods-quebra-galho-mfit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quebra-galho-mfit.release.xcconfig"; path = "Target Support Files/Pods-quebra-galho-mfit/Pods-quebra-galho-mfit.release.xcconfig"; sourceTree = "<group>"; };
+		974F3BC79E957549087D3E40 /* Pods_quebra_galho_mfit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_quebra_galho_mfit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A72BF730BFD6C203410244A2 /* Pods-quebra-galho-mfit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-quebra-galho-mfit.debug.xcconfig"; path = "Target Support Files/Pods-quebra-galho-mfit/Pods-quebra-galho-mfit.debug.xcconfig"; sourceTree = "<group>"; };
+		C147ACF72ACA56D6006BEF90 /* quebra-galho-mfit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "quebra-galho-mfit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C147ACFA2ACA56D6006BEF90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C147ACFC2ACA56D6006BEF90 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C147ACFE2ACA56D6006BEF90 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C147AD012ACA56D6006BEF90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C147AD032ACA56D8006BEF90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C147AD062ACA56D8006BEF90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C147AD082ACA56D8006BEF90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C147ACF42ACA56D6006BEF90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70A9DBE0C81E4F97EFA4D89C /* Pods_quebra_galho_mfit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05A84A233878D2C40AA4BEB8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A72BF730BFD6C203410244A2 /* Pods-quebra-galho-mfit.debug.xcconfig */,
+				0F4B8E2820790796F765CF74 /* Pods-quebra-galho-mfit.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B5D48BEC02069C107781B7D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				974F3BC79E957549087D3E40 /* Pods_quebra_galho_mfit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C147ACEE2ACA56D6006BEF90 = {
+			isa = PBXGroup;
+			children = (
+				C147ACF92ACA56D6006BEF90 /* quebra-galho-mfit */,
+				C147ACF82ACA56D6006BEF90 /* Products */,
+				05A84A233878D2C40AA4BEB8 /* Pods */,
+				B5D48BEC02069C107781B7D5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C147ACF82ACA56D6006BEF90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C147ACF72ACA56D6006BEF90 /* quebra-galho-mfit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C147ACF92ACA56D6006BEF90 /* quebra-galho-mfit */ = {
+			isa = PBXGroup;
+			children = (
+				C147ACFA2ACA56D6006BEF90 /* AppDelegate.swift */,
+				C147ACFC2ACA56D6006BEF90 /* SceneDelegate.swift */,
+				C147ACFE2ACA56D6006BEF90 /* ViewController.swift */,
+				C147AD002ACA56D6006BEF90 /* Main.storyboard */,
+				C147AD032ACA56D8006BEF90 /* Assets.xcassets */,
+				C147AD052ACA56D8006BEF90 /* LaunchScreen.storyboard */,
+				C147AD082ACA56D8006BEF90 /* Info.plist */,
+			);
+			path = "quebra-galho-mfit";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C147ACF62ACA56D6006BEF90 /* quebra-galho-mfit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C147AD0B2ACA56D8006BEF90 /* Build configuration list for PBXNativeTarget "quebra-galho-mfit" */;
+			buildPhases = (
+				1CA74B50D958E57CEA588E74 /* [CP] Check Pods Manifest.lock */,
+				C147ACF32ACA56D6006BEF90 /* Sources */,
+				C147ACF42ACA56D6006BEF90 /* Frameworks */,
+				C147ACF52ACA56D6006BEF90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "quebra-galho-mfit";
+			productName = "quebra-galho-mfit";
+			productReference = C147ACF72ACA56D6006BEF90 /* quebra-galho-mfit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C147ACEF2ACA56D6006BEF90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					C147ACF62ACA56D6006BEF90 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = C147ACF22ACA56D6006BEF90 /* Build configuration list for PBXProject "quebra-galho-mfit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C147ACEE2ACA56D6006BEF90;
+			productRefGroup = C147ACF82ACA56D6006BEF90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C147ACF62ACA56D6006BEF90 /* quebra-galho-mfit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C147ACF52ACA56D6006BEF90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C147AD072ACA56D8006BEF90 /* LaunchScreen.storyboard in Resources */,
+				C147AD042ACA56D8006BEF90 /* Assets.xcassets in Resources */,
+				C147AD022ACA56D6006BEF90 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CA74B50D958E57CEA588E74 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-quebra-galho-mfit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C147ACF32ACA56D6006BEF90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C147ACFF2ACA56D6006BEF90 /* ViewController.swift in Sources */,
+				C147ACFB2ACA56D6006BEF90 /* AppDelegate.swift in Sources */,
+				C147ACFD2ACA56D6006BEF90 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C147AD002ACA56D6006BEF90 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C147AD012ACA56D6006BEF90 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C147AD052ACA56D8006BEF90 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C147AD062ACA56D8006BEF90 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C147AD092ACA56D8006BEF90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C147AD0A2ACA56D8006BEF90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C147AD0C2ACA56D8006BEF90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A72BF730BFD6C203410244A2 /* Pods-quebra-galho-mfit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 74DKSPAFD4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "quebra-galho-mfit/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.duduzoeras.quebra-galho-mfit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C147AD0D2ACA56D8006BEF90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F4B8E2820790796F765CF74 /* Pods-quebra-galho-mfit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 74DKSPAFD4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "quebra-galho-mfit/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.duduzoeras.quebra-galho-mfit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C147ACF22ACA56D6006BEF90 /* Build configuration list for PBXProject "quebra-galho-mfit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C147AD092ACA56D8006BEF90 /* Debug */,
+				C147AD0A2ACA56D8006BEF90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C147AD0B2ACA56D8006BEF90 /* Build configuration list for PBXNativeTarget "quebra-galho-mfit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C147AD0C2ACA56D8006BEF90 /* Debug */,
+				C147AD0D2ACA56D8006BEF90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C147ACEF2ACA56D6006BEF90 /* Project object */;
+}
